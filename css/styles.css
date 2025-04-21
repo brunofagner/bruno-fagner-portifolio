@@ -1,0 +1,22 @@
+/* definir uma fonte mais profissonal para meu portifolio */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand {
+    font-weight: bold; /* Deixa o nome em negrito */
+}
+.sobre-mim-texto {
+    font-size: 1.2rem; /* Aumenta o tamanho da fonte */
+    line-height: 1.7; /* Aumenta o espaçamento entre as linhas */
+    margin-bottom: 1rem; /* Adiciona um pouco de espaçamento abaixo dos parágrafos */
+}

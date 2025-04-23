@@ -20,3 +20,33 @@ h1, h2, h3 {
     line-height: 1.7; /* Aumenta o espaçamento entre as linhas */
     margin-bottom: 1rem; /* Adiciona um pouco de espaçamento abaixo dos parágrafos */
 }
+/* Estilos para a seção de Soft Skills */
+#soft-skills .soft-skill-card {
+    background-color: #343a40; /* Cor de fundo escura */
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    color: #fff; /* Cor do texto claro */
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    height: 100%; /* Garante que os cards tenham a mesma altura */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alinha o conteúdo verticalmente */
+}
+
+#soft-skills .soft-skill-icon {
+    font-size: 3rem; /* Tamanho do ícone */
+    margin-bottom: 1rem;
+    color: #00bcd4; /* Cor do ícone (azul claro) */
+}
+
+#soft-skills h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #fff;
+}
+
+#soft-skills p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
